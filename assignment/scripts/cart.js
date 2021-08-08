@@ -139,6 +139,90 @@ function isFull(basket) {
     }
 console.log ('Is basket full? :' , isFull(basket));
 
-function removeItem(){
+basket.maxItems = 5;
 
-};
+// function removeItem(basket){
+  //if (basket.length > maxItems) {
+  //  basket.length[i]-1; return true
+
+  //}
+//};
+//console.log(removeItem(basket));
+
+//console.log(basket);
+
+//basket.push = function removeItems(elem) {
+//basket.push('6');
+//console.log(basket);
+
+//function removeItem(basket, 5){
+  //basket.removeItem(5);
+  //basket.length = Math.mn(basket.length, 5);
+  //return true;
+//}
+
+//function removeItem (basket){
+  //for (let i = 0; i < basket.length; i--) {
+    //basket[i]
+  //} if (basket.length i--){
+  //  return true;
+  //}
+//}
+//console.log (basket);
+
+//function removeItem (id, basket) {
+  //if (basket.length === 5) {
+    //basket.pop();
+//  }
+  //return basket;
+//}
+///console.log(basket);
+
+//function removeItem (elem){
+  //array.pop();
+//}
+
+//console.log(basket);
+
+//let limitedArrayProxy = {
+  //set: function(target, property, value, receiver){
+  //  if (!isNaN(property)){
+    //  if(parseInt(property) < 5) {
+      //  target[property] = value;
+    //  }
+    //}
+    //return true;
+//  }
+//};
+
+//let limitArray = new Proxy ([], limitedArrayProxy);
+//let limitArray = 5
+//limitArray.push (1, 2, 3)
+//console.log (limitArray)
+
+//limitArray.unshift(5, 4)
+//console.log(limitArray)
+
+//limitArray.unshift(10)
+//console.log(limitArray)
+
+//limitArray[2] = 'manually changed'
+//console.log(limitArray)
+
+//limitArray.push(20)
+//console.log(limitArray)
+
+//limitArray[5] = 'overflow'
+//console.log('still 5 element:', limitArray)
+
+//console.log('length', limitArray.length)
+
+//function removeItem ('item') {
+  //if basket.indexOf() {
+  //  basket.splice('item')
+
+  //};
+
+
+//}
+// 
