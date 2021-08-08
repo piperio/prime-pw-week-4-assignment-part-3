@@ -103,3 +103,42 @@ function isFull(basket) {
   }
 
 console.log ('Is basket full? :' , isFull(basket));
+
+addItem('apples');
+console.log(basket);
+
+addItem('oranges');
+console.log(basket);
+
+basket.unshift('bananas');
+console.log(basket);
+
+basket.pop('bananas');
+console.log(basket);
+
+basket.shift('oranges');
+console.log(basket);
+
+console.log(basket);
+
+addItem('oranges', addItem('bananas'));
+console.log(basket);
+
+addItem('pineapples', addItem('pears'), addItem('rutabagas')); //Question: Why did the console list rutabagas before pinepapples?
+console.log(basket);
+
+
+console.log(isFull(basket));
+
+function isFull(basket) {
+  if (basket.length < maxItems){
+    return false}
+    else {basket.length >= maxItems
+      return true ; basket.length--
+    };
+    }
+console.log ('Is basket full? :' , isFull(basket));
+
+function removeItem(){
+
+};
