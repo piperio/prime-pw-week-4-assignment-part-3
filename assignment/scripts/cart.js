@@ -2,7 +2,7 @@ console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
 
-//my comments are things I was trying.
+//my comments are things I was trying. Is this what you mean by wanting to see how we're testing our code?
 
 let basket = [];
 
@@ -89,3 +89,17 @@ function empty(basket){
 }
   empty(basket);
   console.log('Reset basket:', basket);
+
+// STRETCH GOALS
+
+const maxItems = 5
+
+function isFull(basket) {
+  if (basket.length < maxItems){
+    return false}
+    else {basket.length >= maxItems
+      return true
+    };
+  }
+
+console.log ('Is basket full? :' , isFull(basket));
